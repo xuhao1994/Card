@@ -1,0 +1,41 @@
+/*
+* @Author: Administrtor
+* @Date:   2017-10-22 16:11:36
+* @Last Modified by:   Administrtor
+* @Last Modified time: 2017-10-22 16:33:56
+*/
+.body>nav>div {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-bottom: 0.5rem;
+}
+.OrderDetailBox>div {
+    height: 3rem;
+    background: #fff;
+    overflow: hidden;
+}
+.OrderDetailList.clearfix>div:first-child {
+	box-sizing: border-box;
+	padding-left: 1rem;
+    overflow: hidden;
+    height: 100%;
+    width: 65%;
+}
+.OrderDetailList.clearfix>div:last-child {
+    width: 35%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+	padding-right: 1rem;
+	text-align: right;
+}
+.OrderDetailList.clearfix>div>p {
+    height: 1.5rem;
+    line-height: 1.6rem;
+    color: #555;
+}

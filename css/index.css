@@ -1,0 +1,12 @@
+.body{
+	background-color: #F9F9F9;
+}
+.border-radius.whitebg{
+	border: 0.1rem solid#cccccc;
+	padding: 1rem 2rem;
+	display: inline-block;
+	margin: 3rem auto;
+}
+.border-radius.whitebg p{
+	margin-top: 1rem;
+}

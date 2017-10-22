@@ -1,0 +1,85 @@
+/*
+* @Author: ASUS
+* @Date:   2017-10-20 14:01:55
+* @Last Modified by:   ASUS
+* @Last Modified time: 2017-10-20 16:11:43
+*/
+body{
+	background-color: #eee;
+}
+.userPhotoBox {
+    box-sizing: border-box;
+    height: 10rem;
+    overflow: hidden;
+}
+.userPhotoImg {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin: 2rem auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px #a4e3a4;
+}
+.userPhotoImg>div {
+    width: 5.7rem;
+    height: 5.7rem;
+    box-sizing: border-box;
+    border: 2px solid #69bf50;
+    border-radius: 50%;
+    margin: 0.15rem auto 0 auto;
+}
+.userPhotoImg>div>div{
+    width: 5.2rem;
+    height: 5.2rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0.15rem auto 0 auto;
+    overflow: hidden;
+}
+.userPhotoImg img{
+    height: 100%;
+}
+.userOptionBox{
+    background-color: #fff;
+}
+.userOptionBox>div:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+.userOptionBox>div {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: url(../imgs/rightArrow.png) no-repeat 96% center;
+    background-size: 0.3rem;
+}
+.userOptionBox>div span {
+    color: #555;
+    font-size: 0.9rem;
+    position: relative;
+    display: block;
+    height: 100%;
+}
+span.CardOrder::before{
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url(../imgs/CardOrder.png) no-repeat center;
+    background-size: contain;
+    margin: 0 1rem;
+    position: relative;
+    top: 0.4rem;
+}
+span.CardDetail::before{
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url(../imgs/CardLogo.png) no-repeat center;
+    background-size: contain;
+    margin: 0 1rem;
+    position: relative;
+    top: 0.4rem;
+}

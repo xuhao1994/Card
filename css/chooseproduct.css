@@ -1,0 +1,25 @@
+.db.dbcenter{
+	width: 80%;
+	margin: 2rem auto;
+}
+.readphone{
+	margin-top: 1rem !important;
+}
+.DataItem>input{
+	margin-top: 1rem;
+}
+.DataItem>div.fl{
+	margin-top: 0.3rem;
+}
+.border-radius.green{
+	border: 0.1rem solid #69bf50;
+	background-color: #f9f9f9;
+}
+.tal.box-sizing{
+	padding-left: 1rem;
+	line-height: 3rem;
+	font-size: 1.1rem;
+}
+.choosep{
+	border: none;
+}

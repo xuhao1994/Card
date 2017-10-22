@@ -1,0 +1,41 @@
+/*�б���ṹ���ο��ҵ����Ϻͷ�Ʊ*/
+.Datalist{
+    box-sizing:border-box;
+    display:block;
+    width:100%;
+    border-top: 0.1rem solid #eee;
+}
+.DataItem{
+	box-sizing:border-box;
+	padding: 0 0.5rem;
+    display:block;
+    width:100%;
+    height:3rem;
+    overflow:hidden;
+}
+.DataItem>span{
+    display:inline-block;
+    color:#555555;
+    font-size:1rem;
+    line-height:3rem;
+}
+.DataItem>i{
+    display:inline-block;
+    color:#999999;
+    font-size:1rem;
+    line-height:3rem;
+}
+.DataItem>strong{
+	display:inline-block;
+	font-size:1rem;
+	margin-left:0.75rem;
+    color:#E61A29;
+}
+.DataItem>input{
+    box-sizing:border-box;
+    border:none;
+    display:inline-block;
+    font-size:0.95rem;
+    background-color:#fff;
+    padding:0.25rem 0rem;
+}

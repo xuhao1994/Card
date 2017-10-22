@@ -1,0 +1,10 @@
+/*
+* @Author: Administrtor
+* @Date:   2017-10-22 17:24:36
+* @Last Modified by:   Administrtor
+* @Last Modified time: 2017-10-22 17:25:42
+*/
+.txt.clearfix.whitebg>span {
+    width: 4rem;
+    text-align: left;
+}

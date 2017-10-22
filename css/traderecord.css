@@ -1,0 +1,33 @@
+.gray5{
+	font-size: 1.3rem;
+}
+.blue.whitebg.clearfix.box-sizing{
+	line-height: 3rem;
+	padding: 0 1rem;
+	font-size: 1.2rem;
+}
+.list{
+	margin: 1rem 0;
+}
+.item{
+	margin: 1rem 0;
+	padding: 0 1rem;
+}
+.item>div{
+	margin:0 0.5rem;
+}
+.item>div>p{
+	margin:0.25rem 0;
+}
+.detail{
+	margin-top: 0.8rem;
+}
+.db.blueBg.white.fr.tac{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	font-size: 1.2rem;
+	padding: 1.5rem 0;
+}

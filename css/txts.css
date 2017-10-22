@@ -1,0 +1,50 @@
+/*�ṹ�����¼��������¼���޸����룬ͨ���ֻ��޸����룬ע���*/
+.txts{
+	width: 100%;
+    box-sizing:border-box;
+}
+.txts .txt{
+	box-sizing: border-box;
+	height:3rem;
+    padding:0.5rem;
+    border-bottom:0.01rem solid #EEEEEE;
+    overflow: hidden;
+    margin: 0;
+    line-height: 2rem;
+}
+.txts .txt span{
+    font-size: 0.95rem;
+}
+.txts .txt input{
+	box-sizing: border-box;
+    border:none;
+    outline: none;
+    font-size: 0.95rem;
+    padding:0.25rem;
+}
+.txts .txt button{
+    font-weight: 100;
+    height: 1.6rem;
+    border: none;
+    width: 5.4rem;
+    border-radius: 0.2rem;
+    font-size: 0.8rem;
+    position: relative;
+    top: 0.2rem;
+    padding: 0.1rem 0.5rem;
+    overflow: hidden;
+}
+.txts .txt img{
+    position: relative;
+    right:2rem;
+    top:1rem;
+}
+.sure{
+    display:block;
+    width:90%;
+    height:2.5rem;
+    line-height:2.5rem;
+    margin:1rem auto;
+    border:none;
+    font-size:1.5rem;
+}

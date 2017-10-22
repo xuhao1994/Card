@@ -1,0 +1,28 @@
+/*
+* @Author: Administrtor
+* @Date:   2017-10-22 16:38:59
+* @Last Modified by:   Administrtor
+* @Last Modified time: 2017-10-22 17:09:54
+*/
+.CardInfoList {
+    background: #fff;
+    height: 7rem;
+    overflow: hidden;
+}
+.CardInfoList.clearfix>div:first-child {
+    width: 35%;
+    height: 100%;
+    overflow: hidden;
+}
+.CardInfoList.clearfix>div:first-child img {
+    display: block;
+    width: 90%;
+    margin: 1.5rem auto;
+}
+.CardInfoList.clearfix>div:last-child>p {
+    height: 1.3rem;
+    margin-top: 1rem;
+}
+.CardInfoList.clearfix>div:last-child>div {
+    margin-top: 1rem;
+}

@@ -1,0 +1,29 @@
+section{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	height: 10rem;
+}
+section img{
+	display: block;
+	width: 20%;
+	margin: 1rem auto;
+}
+section>p{
+	display: block;
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+article{
+	margin: 4rem auto;
+	background-color: #FFFFFF;
+	display: block;
+	width: 100%;
+}
+article p{
+	line-height: 3rem;
+	font-size: 1.5rem;
+	padding: 0 3%;
+}
