@@ -1,0 +1,65 @@
+.pd{
+	padding: 0.5rem 1rem;
+}
+.lh{
+	line-height: 1.06rem;
+}
+.cardImg{
+	background-color: #e9f8ff;
+	box-sizing: border-box;
+	padding: 1rem 1rem 1.5rem 1rem;
+	width: 100%;
+}
+.cardImg>img{
+	width: 100%;
+}
+.TxtAuto {
+    box-sizing: border-box;
+    padding: 0.2rem 1rem;
+}
+.jgCardPoint>span {
+	font-size: 0.6rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.jgCardPoint>span:nth-child(1):before{
+	content:"";
+	display: inline-block;
+	height: 0.9rem;
+	width: 0.9rem;
+	background: url(../imgs/guanfangIcon.png) no-repeat center;
+	background-size: contain;
+	position: relative;
+    vertical-align: text-top;
+    margin-right: 0.1rem;
+}
+.jgCardPoint>span:nth-child(2):before{
+	content:"";
+	display: inline-block;
+	height: 0.9rem;
+	width: 0.9rem;
+	background: url(../imgs/JGlogoIcon.png) no-repeat center;
+	background-size: contain;
+	position: relative;
+    vertical-align: text-top;
+    margin-right: 0.1rem;
+}
+.jgCardPoint>span:nth-child(3):before{
+	content:"";
+	display: inline-block;
+	height: 0.9rem;
+	width: 0.9rem;
+	background: url(../imgs/jgTuiKuan.png) no-repeat center;
+	background-size: contain;
+	position: relative;
+    vertical-align: text-top;
+    margin-right: 0.1rem;
+}
+.TxtAuto.graybge.clearfix {
+    font-size: 0.9rem;
+}
+.CardPoint>div {
+    width: 33.3%;
+    text-align: center;
+    padding: 0.5rem 0;
+}

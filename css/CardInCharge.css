@@ -1,0 +1,70 @@
+/*
+* @Author: xuhao1994
+* @Date:   2017-10-23 15:47:09
+* @Last Modified by:   xuhao1994
+* @Last Modified time: 2017-10-23 16:28:41
+*/
+.txtOfBar {
+    background: #fff;
+    height: 2rem;
+    line-height: 2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.txtOfBar>*:first-child {
+    padding-left: 1rem;
+    height: 2rem;
+}
+.txtOfBar>*:last-child {
+    padding-right: 1rem;
+    height: 2rem;
+}
+.border-top{
+    border-top: 1px solid #eee;
+}
+.txtOfBarAuto{
+	background: #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0.5rem 1rem;
+}
+.chargePrice {
+    width: 33.33%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.chargePrice>* {
+    display: block;
+    width: 80%;
+    height: 2rem;
+    margin: 0.5rem auto;
+    text-align: center;
+    border: 1px solid #eee;
+    line-height: 2rem;
+    border-radius: 0.2rem;
+    outline: none;
+    color: #555;
+    position: relative;
+}
+.GoCharge {
+    text-align: center;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 90%;
+    border-radius: 0.2rem;
+    margin: 5rem auto;
+}
+.curSelect>*{
+	border: 1px solid #ff8701;
+}
+.curSelect>*:after{
+	content: "";
+	display: inline-block;
+	width: 0.75rem;
+	height: 0.75rem;
+	background: url(../imgs/curSelect.png) no-repeat center;
+	background-size: contain;
+	position: absolute;
+	right:0;
+	bottom:0;
+}

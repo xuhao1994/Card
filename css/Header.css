@@ -25,6 +25,11 @@
     background: url(../imgs/back.png) no-repeat center;
     background-size: contain;
 }
+.PublicHeaderBackIcon a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
 .PublicHeaderUser{
     display: inline-block;
     position: absolute;

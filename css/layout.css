@@ -1,0 +1,51 @@
+.db{
+	display: block;
+}
+.dib{
+	display: inline-block;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.fn{
+	float:none;
+}
+.cb{
+	clear: both;
+}
+.cl{
+	clear: left;
+}
+.cr{
+	clear: right;
+}
+.wa{
+	width: auto;
+}
+.ha{
+	height: auto;
+}
+.pa{
+	position: absolute;
+}
+.pr{
+	position: relative;
+}
+.pf{
+	position: fixed;
+}
+.pt0{
+	top: 0;
+}
+.pl0{
+	left: 0;
+}
+.pr0{
+	right: 0;
+}
+.pb{
+	bottom: 0;
+}

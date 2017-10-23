@@ -6,7 +6,6 @@
     height: auto;
     font-style: normal;
     font-weight: 400;
-    text-decoration:none;
     list-style-type: none;
 }
 a:link,a:hover,a:active,a:visited{
@@ -131,7 +130,11 @@ a:link,a:hover,a:active,a:visited{
 .greenBg{
 	background-color: #69bf50;
 }
+.orange{
+	color: #ff8701;
+}
 .nowrap{
+	display: block;
 	white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -263,4 +266,42 @@ input[type="date"]::-webkit-datetime-edit{
 *::-o-scrollbar-track,
 *::-o-scrollbar {
     display:none;
+}
+
+
+
+.txt-small{
+	font-size: 0.8rem;
+}
+.txt-smaller{
+	font-size: 0.6rem;
+}
+
+.btnTypeBlue, .btnTypeOrange, .btnTypeGreen {
+    display: block;
+    margin: 0rem auto;
+    width: 60%;
+    border: 1px solid;
+    border-radius: 0.2rem;
+    padding: 0.8rem 0rem;
+}
+.btnTypeBlue{
+	background:#e8f4fc;
+	border-color: #0099e6;
+	color: #0099e6;
+}
+.btnTypeOrange{
+	background:#fdf0ec;
+	border-color: #ec6941;
+	color: #ec6941;
+}
+.btnTypeGreen{
+	background:#e5f5ec;
+	border-color: #009944;
+	color: #009944;
+}
+.GoPayBtn {
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
 }

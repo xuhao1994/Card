@@ -1,0 +1,18 @@
+.fwb{
+	font-weight: bold;
+}
+.fwl{
+	font-weight: lighter;
+}
+.fsn{
+	font-style: normal;
+}
+.fsi{
+	font-style: italic;
+}
+.fso{
+	font-style: oblique;
+}
+.fs2{
+	font-size: 2rem;
+}
